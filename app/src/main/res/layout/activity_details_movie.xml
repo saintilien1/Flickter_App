@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a7055"
+
+    tools:context="com.example.saintilien.flickster.activity_details_movie">
+
+
+    <ImageView
+        android:id="@+id/ivDetailsImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tvTitleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivDetailsImage"
+        android:layout_margin="5dp"
+        android:text="Que Dieu fasse son travail"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleDetails"
+        android:layout_margin="10dp"
+        android:text="11-06-2019"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_light" />
+
+    <RatingBar
+        android:id="@+id/rbmovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdate"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:numStars="5"
+        android:rating="3" />
+
+    <TextView
+        android:id="@+id/tvOverviewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbmovie"
+        android:layout_margin="4dp"
+        android:text="Resume of the film"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/background_light"
+        android:textStyle="italic" />
+</RelativeLayout>
