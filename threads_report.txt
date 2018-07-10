@@ -1,0 +1,60 @@
+"<1> main@830028037792" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:138)
+	  at android.os.Looper.loop(Looper.java:131)
+	  at android.app.ActivityThread.main(ActivityThread.java:5653)
+	  at java.lang.reflect.Method.invokeNative(Method.java:-1)
+	  at java.lang.reflect.Method.invoke(Method.java:515)
+	  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1291)
+	  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1107)
+	  at dalvik.system.NativeStart.main(NativeStart.java:-1)
+
+"<7> FinalizerDaemon@830036094752" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:401)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:102)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:73)
+	  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:170)
+	  at java.lang.Thread.run(Thread.java:841)
+
+"<8> FinalizerWatchdogDaemon@830036095184" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:364)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:230)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:207)
+	  at java.lang.Thread.run(Thread.java:841)
+
+"<6> ReferenceQueueDaemon@830036094392" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:364)
+	  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:130)
+	  at java.lang.Thread.run(Thread.java:841)
+
+"<12> Binder_3@830040688592" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
+"<10> Binder_2@830036122792" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
+"<9> Binder_1@830036108528" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
+"<5> Compiler@830036084056" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
+"<3> Signal Catcher@830036083576" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
+"<2> GC@830036083352" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	  at dalvik.system.NativeStart.run(NativeStart.java:-1)
+
